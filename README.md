@@ -1,3 +1,5 @@
+
+
 # SSHFolio 🚀
 
 SSH Portfolio is a modular TUI (Text User Interface) portfolio application based on the [Bubble Tea framework](https://github.com/charmbracelet/bubbletea). This project allows you to showcase your portfolio in a terminal environment, providing a unique way to present your projects, biography, contact information, and more. It's designed to be easily customizable and self-hostable using Docker.
@@ -69,7 +71,7 @@ SSH Portfolio is a modular TUI (Text User Interface) portfolio application based
   If you're planning to use this as your own SSHfolio, here's are a few steps on how to do so.
 
   1. After cloning, rename the `.env.sample` file to `.env` and fill it out with your own personal portfolio information
-  2. Write your Home, About, and Contact page markdown files (they're located in `/assets/markdown`
+  2. Write your Home, About, and Contact page markdown files (they're located in `/assets/markdown`)
   3. Write your corresponding Project markdown files for each project you listed in the `.env` file
      - Each markdown file should be named what you put under `PROJECT_x_MARKDOWN_FILE_TITLE` with the .md at the end of course
      - All project markdown files should be placed in the `/assets/markdown/projects` directory
